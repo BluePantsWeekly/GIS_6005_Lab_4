@@ -1,41 +1,75 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document>   
-    <name>Letter K</name> 
+  <Document>
+    <name>Letter K</name>
     <Style id="letterStyle">
-      <PolyStyle> 
+      <PolyStyle>
         <color>aa0000ff</color>
         <outline>1</outline>
       </PolyStyle>
       <LineStyle>
         <color>ff0000ff</color>
-        <width>2</width> 
-      </LineStyle>  
+        <width>2</width>
+      </LineStyle>
     </Style>
+
+    <!-- Vertical Line -->
     <Placemark>
-      <name>Letter K</name>
+      <name>K Vertical Stroke</name>
       <styleUrl>#letterStyle</styleUrl>
       <Polygon>
-        <outerBoundaryIs> 
-          <LinearRing>  
-            <coordinates> 
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
               -81.2317,43.0134,0
-              -81.2287,43.0134,0
-              -81.2287,43.0184,0
-              -81.2267,43.0214,0
-              -81.2237,43.0134,0
-              -81.2207,43.0134,0
-              -81.2240,43.0184,0
-              -81.2207,43.0234,0
-              -81.2237,43.0234,0
-              -81.2267,43.0204,0
-              -81.2287,43.0224,0
-              -81.2287,43.0234,0
+              -81.2297,43.0134,0
+              -81.2297,43.0234,0
               -81.2317,43.0234,0
               -81.2317,43.0134,0
             </coordinates>
-           </LinearRing>
+          </LinearRing>
         </outerBoundaryIs>
-       </Polygon>
+      </Polygon>
     </Placemark>
+
+    <!-- Upper diagonal part -->
+    <Placemark>
+      <name>K Upper Diagonal</name>
+      <styleUrl>#letterStyle</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -81.2297,43.0184,0
+              -81.2277,43.0184,0
+              -81.2237,43.0234,0
+              -81.2257,43.0234,0
+              -81.2297,43.0184,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Lower diagonal part -->
+    <Placemark>
+      <name>K Lower Diagonal</name>
+      <styleUrl>#letterStyle</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -81.2297,43.0184,0
+              -81.2277,43.0184,0
+              -81.2237,43.0134,0
+              -81.2257,43.0134,0
+              -81.2297,43.0184,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
   </Document>
 </kml>
