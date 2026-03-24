@@ -1,0 +1,41 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>   
+    <name>Letter K</name> 
+    <Style id="letterStyle">
+      <PolyStyle> 
+        <color>aa0000ff</color>
+        <outline>1</outline>
+      </PolyStyle>
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>2</width> 
+      </LineStyle>  
+    </Style>
+    <Placemark>
+      <name>Letter K</name>
+      <styleUrl>#letterStyle</styleUrl>
+      <Polygon>
+        <outerBoundaryIs> 
+          <LinearRing>  
+            <coordinates> 
+              -81.2500,42.9900,0
+              -81.2470,42.9900,0
+              -81.2470,42.9960,0
+              -81.2450,42.9980,0
+              -81.2420,42.9900,0
+              -81.2390,42.9900,0
+              -81.2420,42.9990,0
+              -81.2390,43.0080,0
+              -81.2420,43.0080,0
+              -81.2450,43.0020,0
+              -81.2470,43.0040,0
+              -81.2470,43.0080,0
+              -81.2500,43.0080,0
+              -81.2500,42.9900,0
+            </coordinates>
+           </LinearRing>
+        </outerBoundaryIs>
+       </Polygon>
+    </Placemark>
+  </Document>
+</kml>
